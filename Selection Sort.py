@@ -9,5 +9,9 @@ def sort (nums):
             if nums[j] < nums [minpos]:
                 minpos = j
 
+        temp = nums[i]
+        nums[i] = nums[minpos]
+        nums[minpos] = temp
+
        
 print(nums)
