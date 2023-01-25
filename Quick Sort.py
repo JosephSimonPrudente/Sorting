@@ -20,5 +20,10 @@ def partition(arr, left, right):
 
     if arr[i] > pivot:
         arr[i], arr[right] = arr[right],arr[i]
-
+    print(arr)
     return i
+
+print("THE VALUE:[69, 90, 15, 2, 10, 11, 41, 14, 44, 74]") 
+arr = [69, 90, 15, 2, 10, 11, 41, 14, 44, 74]
+quicksort(arr, 0 , len(arr)-1)
+print("Sorted array is:",arr)
