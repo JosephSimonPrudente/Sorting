@@ -1,6 +1,6 @@
 
 print("THE VALUE:[69, 90, 15, 2, 10, 11, 41, 14, 44, 74]")
-
+print("                                                 ")
 nums = [69, 90, 15, 2, 10, 11, 41, 14, 44, 74]
 def sort (nums):
 
@@ -17,5 +17,5 @@ def sort (nums):
         print(nums)
 
 sort(nums)
-
-print(nums)
+print("                                                 ")
+print("Sorted array is:",nums)
