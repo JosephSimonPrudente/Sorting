@@ -5,3 +5,6 @@ def merge_sort(num):
     if len(num)>1:
         left_num = num [:len(num)//2]
         right_num = num [len(num)//2:]
+
+        merge_sort(left_num)
+        merge_sort(right_num)
